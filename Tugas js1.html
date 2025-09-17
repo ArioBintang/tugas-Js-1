@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 1</title>
+</head>
+<body>
+    <p>menghitung luas bangun datar</p>
+    <script>
+         // menghitung luas persegi panjang
+    function luasPersegiPanjang(panjang, lebar) 
+    {
+      return panjang * lebar;
+    }
+
+    // menghitung luas bujur sangkar
+    function luasBujurSangkar(sisi) 
+    {
+      return sisi * sisi;
+    }
+
+    // menghitung luas segitiga
+    function luasSegitiga(alas, tinggi) 
+    {
+      return 0.5 * alas * tinggi;
+    }
+
+    // nilai variabel
+    let panjang = 10;
+    let lebar = 5;
+    let sisi = 7;
+    let alas = 8;
+    let tinggi = 6;
+
+    console.log("Luas Persegi Panjang:", luasPersegiPanjang(panjang, lebar));
+    console.log("Luas Bujur Sangkar:", luasBujurSangkar(sisi));
+    console.log("Luas Segitiga:", luasSegitiga(alas, tinggi));
+
+    // Bisa juga tampil di halaman
+    document.write("<p>Luas Persegi Panjang: " + luasPersegiPanjang(panjang, lebar) + "</p>");
+    document.write("<p>Luas Bujur Sangkar: " + luasBujurSangkar(sisi) + "</p>");
+    document.write("<p>Luas Segitiga: " + luasSegitiga(alas, tinggi) + "</p>");
+    </script>
+</body>
+</html>
